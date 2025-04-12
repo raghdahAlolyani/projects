@@ -1,3 +1,4 @@
-# test 
-# This is a test inventory file for Ansible.
-# It contains a list of hosts and their respective groups.
+all:
+  hosts:
+    bastion.ocp.local:
+     ansible_connection: local
